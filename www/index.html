@@ -4,10 +4,34 @@
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<script src="js/pgb.js"></script>
 		<script src="cordova.js"></script>
+		
+	<style>
+		body {
+			height: 1000px;
+			background: red; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+		}
+		
+		h1 {
+			    text-shadow: 3px 2px white;
+				text-align: center;
+		}
+	</style>
+
 	</head>
 	<body onload="init()">
-		<h1>Hello World!</h1>
+	
+		<h1>My business card!</h1>
 		<p id="dp"></p>
-		<input type="button" onclick="deviceInfo()" value="Let me introduce myself!">
+		<p>
+		<h3>Name: Sebastian Kuśnierz</h3>
+		E-mail: kusnierz.sebastian@gmail.com <br />
+		Webstie: http://google.com <br />
+		Dean's group number: KrDuIs1012 <br />
+		Field of study: Applied Infromatics </br />
+		
 	</body>
 </html>
