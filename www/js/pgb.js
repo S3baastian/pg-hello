@@ -20,3 +20,14 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function authorInfo() {
+
+	info =  'Hi, let me introduce myself. :-)' + '\n' +
+			'=====' + '\n' +
+			'Author Name    : '     + ' Sebastian Kuśnierz'			+ '\n' + 
+
+
+	navigator.notification.alert(info);
+	
+}
